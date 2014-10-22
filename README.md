@@ -1,0 +1,4 @@
+katas
+=====
+
+Simple code katas
