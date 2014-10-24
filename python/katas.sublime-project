@@ -1,24 +1,13 @@
 {
-	"build_systems":
-	[
-		{
-			"cmd":
-			[
-				"python",
-				"$project_path/main.py"
-			],
-			"name": "PythonBuild"
-		},
-		{
-			"name": "Anaconda Python Builder",
-			"selector": "source.python",
-			"shell_cmd": "python -u \"$file\""
-		}
-	],
 	"folders":
 	[
 		{
-			"path": "/home/aclaro64/SourceCode/github/katas/python/bowling"
+			"follow_symlinks": true,
+			"path": "bowling"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "prime-factors"
 		}
 	]
 }
