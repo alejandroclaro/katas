@@ -21,5 +21,5 @@ def _to_roman(number, result):
   if number == 0:
     return result
   else:
-    digit_value, digit_symbol = reduce(lambda current, next: current if number >= current[0] else next, _ALPHABET)
+    digit_value, digit_symbol = next((v, s) for (v, s) in _ALPHABET if number >= v)
     return _to_roman(number - digit_value, result + digit_symbol)
