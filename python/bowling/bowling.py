@@ -29,7 +29,18 @@ def score(game):
 def _score_frame(game, roll):
   return game[roll] + game[roll + 1]
 
-def is_spare(game, roll):
+def is_spare(game, roll):'''
+Bowling game code kata.
+'''
+
+def score(game):
+  """
+  Computes the game score.
+
+  @type  game: [0-9] integers list.
+  @param game: The bolwing game rolls.
+  """
+
   return _score_frame(game, roll) == 10
 
 def _score_spare(game, roll):
