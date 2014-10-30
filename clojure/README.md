@@ -3,8 +3,8 @@ Code katas in Clojure
 Dependencies
 ------------
 
-Build: Leiningen 2.0.0+
-Unit test framework: Lein Midje Plugin
+* Build: Leiningen 2.0.0+
+* Unit test framework: Lein Midje Plugin
 
 Instructions
 ------------
