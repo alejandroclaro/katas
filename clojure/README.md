@@ -9,4 +9,4 @@ Dependencies
 Instructions
 ------------
 
-Run tests manually with lein midje or automatically on save using lein midje :autotest
+Run tests manually with 'lein midje' or automatically on save using 'lein midje :autotest'
