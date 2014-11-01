@@ -2,6 +2,10 @@
  * @brief Declaration of arabic to roman conversion functions.
  */
 
+/* INCLUDES ******************************************************************/
+
+ #include <string>
+
 /* DECLARATIONS **************************************************************/
 
 /**
@@ -11,4 +15,4 @@
  *
  * @return The roman number as a string. The string shall be free by the caller.
  */
-char* toRoman(unsigned int number);
+std::string toRoman(unsigned int number);

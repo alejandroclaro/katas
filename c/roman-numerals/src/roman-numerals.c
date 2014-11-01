@@ -1,6 +1,4 @@
 /**
- * @file roman-numerals.c
- *
  * @brief Implementation of arabic to roman conversion functions.
  */
 
@@ -11,24 +9,20 @@
 #include <stdlib.h>
 #include <string.h>
 
-/* DEFINITIONS ***************************************************************/
-
- #define ARRAY_LENGHT(x) (sizeof(x) / sizeof(x[0]))
-
 /* STRUCTURES ****************************************************************/
 
-typedef struct RomanSymbolStruct
+struct RomanSymbol
 {
   unsigned int value;
   char*        symbol;
-} RomanSymbol;
+};
 
 /* STATIC FUNCTIONS **********************************************************/
 
-static RomanSymbol
-findClosestSymbol(unsigned int number)
+static struct RomanSymbol
+findNextDigit(unsigned int number)
 {
-  static RomanSymbol alphabet[] =
+  static struct RomanSymbol alphabet[] =
   {
     { 1000, "M" }, { 900, "CM" }, { 500, "D" }, { 400, "CD" },
     {  100, "C" }, {  90, "XC" }, {  50, "L" }, {  40, "XL" },
@@ -36,18 +30,15 @@ findClosestSymbol(unsigned int number)
     {    1, "I" }, {   0,   "" }
   };
 
-  RomanSymbol result = { 0, "" };
+  static size_t size = (sizeof(alphabet) / sizeof(alphabet[0]));
 
-  for (size_t i = 0; i < ARRAY_LENGHT(alphabet); ++i)
+  for (size_t i = 0; i < size; ++i)
   {
     if (number >= alphabet[i].value)
-    {
-      result = alphabet[i];
-      break;
-    }
+      return alphabet[i];
   }
 
-  return result;
+  return alphabet[0];
 }
 
 /* IMPLEMENTATION ************************************************************/
@@ -59,7 +50,7 @@ toRoman(unsigned int number)
 
   while (number > 0)
   {
-    RomanSymbol digit = findClosestSymbol(number);
+    struct RomanSymbol digit = findNextDigit(number);
 
     number -= digit.value;
     strcat(result, digit.symbol);

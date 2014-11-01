@@ -1,6 +1,4 @@
 /**
- * @file test-roman-numerals.c
- *
  * @brief Roman numerals code kata unit tests.
  */
 

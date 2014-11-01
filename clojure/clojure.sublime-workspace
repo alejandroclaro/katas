@@ -304,11 +304,11 @@
 	},
 	"expanded_folders":
 	[
-		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/target/classes",
-		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/target/stale"
+		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals"
 	],
 	"file_history":
 	[
+		"/home/aclaro64/SourceCode/github/katas/clojure/clojure.sublime-project",
 		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/test/test_roman_numerals.clj",
 		"/home/aclaro64/SourceCode/github/katas/sml/roman-numerals/roman-numerals.sml",
 		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/src/roman_numerals.clj",
@@ -435,8 +435,7 @@
 		"/home/aclaro64/Desktop/1800/BBB/BOOT/uEnv.txt",
 		"/home/aclaro64/Desktop/1800/lcd_version4/FW_LCD_V4/keypad.txt",
 		"/home/aclaro64/Downloads/transmission-package_v7.0.7.xsd",
-		"/media/aclaro64/BOOT/scripts/setup-ubuntu-armhf-3.8.13-bone30.sh",
-		"/home/aclaro/Desktop/1800/LCD/LCDLib.h"
+		"/media/aclaro64/BOOT/scripts/setup-ubuntu-armhf-3.8.13-bone30.sh"
 	],
 	"find":
 	{

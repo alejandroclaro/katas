@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"symbol",
+				"symbol"
+			],
+			[
+				"f",
+				"first_larger"
+			],
+			[
 				"ro",
 				"roman_digit"
 			],
@@ -123,9 +131,61 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 203.0,
+		"height": 352.0,
 		"selected_items":
 		[
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"replc",
+				"SublimeREPL: Clojure"
+			],
+			[
+				"clo",
+				"SublimeREPL: Clojure"
+			],
+			[
+				"repl c",
+				"SublimeREPL: Clojure"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"origa",
+				"Origami: Create Pane Above"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"cloju",
+				"SublimeREPL: Clojure"
+			],
+			[
+				"repl",
+				"SublimeREPL: SML"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
 			[
 				"git pus",
 				"Git: Push"
@@ -145,10 +205,6 @@
 			[
 				"inde",
 				"Indent XML"
-			],
-			[
-				"repl",
-				"SublimeREPL: SML"
 			],
 			[
 				"repls",
@@ -188,10 +244,6 @@
 			],
 			[
 				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -239,7 +291,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 526.0
+		"width": 465.0
 	},
 	"console":
 	{
@@ -260,20 +312,55 @@
 	},
 	"expanded_folders":
 	[
-		"/home/aclaro64/SourceCode/github/katas/python/bowling",
-		"/home/aclaro64/SourceCode/github/katas/python/prime-factors",
-		"/home/aclaro64/SourceCode/github/katas/python/roman-numerals"
+		"/home/aclaro64/SourceCode/github/katas/c/roman-numerals"
 	],
 	"file_history":
 	[
+		"/home/aclaro64/SourceCode/github/katas/c/c.sublime-project",
+		"/home/aclaro64/SourceCode/github/katas/c++98/c++98.sublime-project",
+		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/src/roman_numerals.clj",
+		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/test/test_roman_numerals.clj",
+		"/home/aclaro64/SourceCode/github/katas/c/roman-numerals/Makefile",
+		"/home/aclaro64/SourceCode/github/katas/c/roman-numerals/src/roman-numerals.h",
+		"/home/aclaro64/SourceCode/github/katas/c/roman-numerals/src/roman-numerals.c",
+		"/home/aclaro64/SourceCode/github/katas/c/roman-numerals/tests/test-roman-numerals.c",
 		"/home/aclaro64/SourceCode/github/katas/python/roman-numerals/roman_numerals.py",
-		"/home/aclaro64/SourceCode/github/katas/python/katas.sublime-project",
+		"/home/aclaro64/SourceCode/SAES_A3_API/examples/fingerprint-matcher/main.cpp",
+		"/home/aclaro64/SourceCode/SAES_A3_API/examples/fingerprint-matcher/Makefile",
+		"/home/aclaro64/SourceCode/SAES_A3_API/examples/logger-adapter/Makefile",
+		"/home/aclaro64/SourceCode/github/katas/sml/roman-numerals/roman-numerals.sml",
+		"/home/aclaro64/SourceCode/github/katas/python/roman-numerals/test_roman_numerals.py",
+		"/home/aclaro64/SourceCode/github/courses/ci0000-topicos-avanzados-en-computacion-grafica-1/projects/vtkIlustrativeSeismic/vtkIlustrativeSeismicDlg.cpp",
+		"/home/aclaro64/SourceCode/github/courses/ci0000-topicos-avanzados-en-computacion-grafica-1/projects/vtkIlustrativeSeismic/vtkIlustrativeSeismic.cpp",
+		"/home/aclaro64/SourceCode/github/courses/cs341-programming-languages/hw4/hw4test.rkt",
+		"/home/aclaro64/SourceCode/github/courses/cs341-programming-languages/hw4/hw4.rkt",
+		"/home/aclaro64/SourceCode/github/courses/ci7621.teoria-de-algoritmos/hw2/src/problema_2-4.cpp",
+		"/home/aclaro64/SourceCode/github/courses/ci7621.teoria-de-algoritmos/hw2/src/problema_2-3.cpp",
+		"/home/aclaro64/SourceCode/github/courses/ci7621.teoria-de-algoritmos/hw2/src/problema_2-4/tarea2-4/tarea2-4.cpp",
+		"/home/aclaro64/SourceCode/github/courses/ci7621.teoria-de-algoritmos/hw2/src/problema_2-3/tarea2-3/tarea2-3.cpp",
+		"/home/aclaro64/SourceCode/github/courses/ci7621.teoria-de-algoritmos/hw2/src/problema_8-31.cpp",
+		"/home/aclaro64/SourceCode/github/courses/ci7621.teoria-de-algoritmos/hw2/src/problema_8-30.cpp",
+		"/home/aclaro64/Dropbox/PostGrado/Teoria de Computacion/Tarea3 2010/solucion3.tex",
+		"/home/aclaro64/Dropbox/PostGrado/Teoria de Computacion/Tarea2 2010/solucion2_alex.tex",
+		"/home/aclaro64/SourceCode/github/courses/ci7541.teoria-de-la-computacion/hw1/solucion.tex",
+		"/home/aclaro64/SourceCode/github/courses/ci7541.teoria-de-la-computacion/hw1/solucion.bbl",
+		"/tmp/c.sml",
+		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/project.clj",
+		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/test/roman_numerals/test/kata.clj",
+		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/src/roman_numerals/kata.clj",
+		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/test/roman_numerals/test/core.clj",
+		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/test/roman_numerals/kata.clj",
+		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/test/roman_numerals/roman-numerals.clj",
+		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/README",
+		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/test-roman-numerals.clj",
+		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/roman-numerals.clj",
+		"/home/aclaro64/SourceCode/github/katas/sml/roman-numerals/test-roman-numerals.sml",
 		"/tmp/937d39f0589011e4afa24dfddb4fe325.sml",
 		"/home/aclaro64/SourceCode/github/katas/python/bowling/bowling.py",
-		"/home/aclaro64/SourceCode/github/katas/python/roman-numerals/test_roman_numerals.py",
 		"/home/aclaro64/SourceCode/github/katas/python/prime-factors/test_prime_factors.py",
 		"/home/aclaro64/SourceCode/SAES_6_Linux/scripts/create-debug-makefiles.sh",
 		"/home/aclaro64/Desktop/1800/EMS/DocumentacionSLI/EML-ENCRYPTED-Sample.xml",
+		"/home/aclaro64/SourceCode/github/katas/python/katas.sublime-project",
 		"/home/aclaro64/SourceCode/github/katas/python/katas.sublime-workspace",
 		"/home/aclaro64/Downloads/device-configuration.xml",
 		"/home/aclaro64/Downloads/election-string-resourceses.xml",
@@ -356,48 +443,11 @@
 		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/libnbis/NbisFingerprint.cpp",
 		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/libnbis/src/bz_sort.c",
 		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/libnbis/bz_sort.c",
-		"/media/aclaro64/BOOT/uEnv.txt",
-		"/media/aclaro64/BOOT/nfs-uEnv.txt",
-		"/media/aclaro64/c97d776e-6e3e-45d7-96a5-f1cb66ab2dd4/boot/uEnv.txt",
-		"/media/aclaro64/rootfs/boot/uEnv.txt",
-		"/home/aclaro64/Desktop/1800/BBB/BOOT/nfs-uEnv.txt",
-		"/home/aclaro64/Desktop/1800/BBB/BOOT/uEnv.txt",
-		"/home/aclaro64/Desktop/1800/lcd_version4/FW_LCD_V4/keypad.txt",
-		"/home/aclaro64/Downloads/transmission-package_v7.0.7.xsd",
-		"/media/aclaro64/BOOT/scripts/setup-ubuntu-armhf-3.8.13-bone30.sh",
-		"/home/aclaro/Desktop/1800/LCD/LCDLib.h",
-		"/home/aclaro/Desktop/1800/LCD/LCDLib.c",
-		"/home/aclaro64/.cache/.fr-x2eR5S/VIU110_PROTOTYPE_EN_V1.0_20140813/Configuration/Citizens/citizens-info.xml",
-		"/home/aclaro64/.cache/.fr-khwkJI/SAES1800PLUS+VIU-v0.11/etc/election/SAES1800+/close-election.xml",
-		"/media/aclaro64/MOC001VIU/SAES/TransmissionPackages/transmission-package.xml",
-		"/home/aclaro64/Downloads/StatusReport_bin file",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/applications/election/share/SAES/election.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/Votes/yBJ3Rk",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/ballot-information.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/election.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/etc/election/SAES1800+/voting-experience.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/mirror/SAES/ballot-information.xml",
-		"/home/aclaro64/Downloads/SAES y example-ballot-V8/SAES/ballot-information.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/workflows-status.xml",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/BallotInformation.cpp",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/Votes/dAp17i",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/machine-state.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/Votes/gxto14",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/BallotInformation.h",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/BallotProcessing.cpp",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/BallotProcessing.h",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/InvalidBallotException.h",
-		"/home/aclaro64/.cache/.fr-hJg9gO/adc_v1/prucode_adc.p",
-		"/opt/arm-rootfs/etc/ld.so.conf",
-		"/tmp/no-viu/SAES/voting-device.xml",
-		"/media/aclaro64/comelec/SAES/voting-device.xml",
-		"/tmp/viu/etc/election/SAES1800+/activation.xml",
-		"/tmp/viu/etc/election/SAES1800+/close-election.xml",
-		"/tmp/viu/etc/election/SAES1800+/devices.xml"
+		"/media/aclaro64/BOOT/uEnv.txt"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -413,6 +463,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"find-closest-symbol",
+			"closest",
+			"findClosestSymbol",
+			"\n ",
+			"Loading",
+			"III",
+			"image",
+			" )",
 			"roman_digit",
 			"value",
 			"score_strike",
@@ -516,7 +574,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 35.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -545,26 +603,14 @@
 		]
 	},
 	"menu_visible": true,
-	"output.exec":
-	{
-		"height": 37.0
-	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"output.git-commit":
-	{
-		"height": 124.0
-	},
-	"output.git-push":
-	{
-		"height": 124.0
-	},
-	"project": "katas.sublime-project",
+	"project": "c.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":

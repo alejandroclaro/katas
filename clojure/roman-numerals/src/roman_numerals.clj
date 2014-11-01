@@ -6,11 +6,11 @@
                                  10 "X"   9 "IX"   5 "V"   4 "IV"
                                   1 "I"   0 ""))
 
-(defn find-closest-symbol [x]
+(defn find-next-digit [x]
   (some #(when (>= x (key %)) %) alphabet))
 
 (defn to-roman [x]
   (loop [n x result ""]
     (if (> n 0)
-      (let [[value symbol] (find-closest-symbol n)] (recur (- n value) (str result symbol)))
+      (let [[value symbol] (find-next-digit n)] (recur (- n value) (str result symbol)))
       result)))
