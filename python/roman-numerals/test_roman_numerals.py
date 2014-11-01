@@ -25,7 +25,7 @@ def test_roman_7_return_VII():
 def test_roman_9_return_IX():
   assert_equals(to_roman(9), "IX")
 
-def test_roman_11_return_X():
+def test_roman_10_return_X():
   assert_equals(to_roman(10), "X")
 
 def test_roman_11_return_XI():
