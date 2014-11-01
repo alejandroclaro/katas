@@ -52,5 +52,5 @@ def test_roman_500_return_D():
 def test_roman_900_return_CM():
   assert_equals(to_roman(900), "CM")
 
-def test_roman_100_return_M():
+def test_roman_1000_return_M():
   assert_equals(to_roman(1000), "M")
