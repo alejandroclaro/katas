@@ -4,6 +4,7 @@
 
 /* INCLUDES ******************************************************************/
 
+#include <cstdint>
 #include <string>
 
 /* DECLARATIONS **************************************************************/
@@ -15,4 +16,4 @@
  *
  * @return The roman number as a string.
  */
-std::string toRoman(unsigned int number);
+std::string toRoman(uint32_t number);

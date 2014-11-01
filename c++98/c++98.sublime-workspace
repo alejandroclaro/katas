@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"include"
+			],
+			[
 				"symbol",
 				"symbol"
 			],
@@ -127,6 +131,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "roman-numerals/Makefile",
+			"settings":
+			{
+				"buffer_size": 481,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "roman-numerals/src/RomanNumerals.h",
+			"settings":
+			{
+				"buffer_size": 495,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "roman-numerals/src/RomanNumerals.cpp",
+			"settings":
+			{
+				"buffer_size": 1353,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "roman-numerals/tests/RomanNumeralsTest.cpp",
+			"settings":
+			{
+				"buffer_size": 1814,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -134,6 +170,10 @@
 		"height": 352.0,
 		"selected_items":
 		[
+			[
+				"git st",
+				"Git: Status"
+			],
 			[
 				"git sta",
 				"Git: Status"
@@ -189,10 +229,6 @@
 			[
 				"git pus",
 				"Git: Push"
-			],
-			[
-				"git st",
-				"Git: Status"
 			],
 			[
 				"python",
@@ -291,7 +327,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 465.0
+		"width": 526.0
 	},
 	"console":
 	{
@@ -312,18 +348,21 @@
 	},
 	"expanded_folders":
 	[
-		"/home/aclaro64/SourceCode/github/katas/c++98",
+		"/home/aclaro64/SourceCode/github/katas/c++98/roman-numerals",
 		"/home/aclaro64/SourceCode/github/katas/c++98/roman-numerals/src",
 		"/home/aclaro64/SourceCode/github/katas/c++98/roman-numerals/tests"
 	],
 	"file_history":
 	[
+		"/home/aclaro64/SourceCode/github/katas/c++98/roman-numerals/tests/test-roman-numerals.c",
+		"/home/aclaro64/SourceCode/github/katas/c++98/roman-numerals/src/RomanNumerals.cpp",
+		"/home/aclaro64/SourceCode/github/katas/c/roman-numerals/tests/test-roman-numerals.c",
+		"/home/aclaro64/SourceCode/github/katas/c/roman-numerals/src/roman-numerals.h",
+		"/home/aclaro64/SourceCode/github/katas/c++98/c++98.sublime-project",
 		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/src/roman_numerals.clj",
 		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/test/test_roman_numerals.clj",
 		"/home/aclaro64/SourceCode/github/katas/c/roman-numerals/Makefile",
-		"/home/aclaro64/SourceCode/github/katas/c/roman-numerals/src/roman-numerals.h",
 		"/home/aclaro64/SourceCode/github/katas/c/roman-numerals/src/roman-numerals.c",
-		"/home/aclaro64/SourceCode/github/katas/c/roman-numerals/tests/test-roman-numerals.c",
 		"/home/aclaro64/SourceCode/github/katas/python/roman-numerals/roman_numerals.py",
 		"/home/aclaro64/SourceCode/SAES_A3_API/examples/fingerprint-matcher/main.cpp",
 		"/home/aclaro64/SourceCode/SAES_A3_API/examples/fingerprint-matcher/Makefile",
@@ -442,14 +481,11 @@
 		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/libnbis/src/bozorth.h",
 		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/libnbis/NbisFingerprint.cpp",
 		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/libnbis/src/bz_sort.c",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/libnbis/bz_sort.c",
-		"/media/aclaro64/BOOT/uEnv.txt",
-		"/media/aclaro64/BOOT/nfs-uEnv.txt",
-		"/media/aclaro64/c97d776e-6e3e-45d7-96a5-f1cb66ab2dd4/boot/uEnv.txt"
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/libnbis/bz_sort.c"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -465,6 +501,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".c",
 			"find-closest-symbol",
 			"closest",
 			"findClosestSymbol",
@@ -569,8 +606,125 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "roman-numerals/Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 481,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "roman-numerals/src/RomanNumerals.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 495,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "roman-numerals/src/RomanNumerals.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								182,
+								182
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "roman-numerals/tests/RomanNumeralsTest.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1814,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								507,
+								507
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -608,6 +762,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 124.0
 	},
 	"project": "c++98.sublime-project",
 	"replace":

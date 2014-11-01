@@ -6,7 +6,7 @@ TARGET = test-roman-numerals
 
 CC           = g++
 INCLUDE_DIRS = -I./src -I/usr/local/include
-CXXFLAGS     = -g -std=c++03 -pedantic -Wall -Wextra -Wswitch-default -Werror -Wfatal-errors $(INCLUDE_DIRS)
+CXXFLAGS     = -g -std=c++11 -pedantic -Wall -Wextra -Wswitch-default -Werror -Wfatal-errors $(INCLUDE_DIRS)
 LDFLAGS      = -lgtest -lgmock -lgmock_main -pthread
 
 SRC = ./src/RomanNumerals.cpp ./tests/RomanNumeralsTest.cpp
