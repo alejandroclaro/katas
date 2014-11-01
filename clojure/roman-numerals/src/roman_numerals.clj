@@ -8,10 +8,9 @@
                       1 "I"   0 ""))
 
 (defn to-roman-step [x result]
- (let [[k v] (some #(when (>= x (key %)) %) alphabet)]
-   (if (= k 0)
-     result
-     (to-roman-step (- x k) (str result v)))))
+  (if (= x 0)
+    result
+    (let [[k v] (some #(when (>= x (key %)) %) alphabet)] (to-roman-step (- x k) (str result v)))))
 
 (defn to-roman [x]
   (to-roman-step x ""))
