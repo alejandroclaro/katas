@@ -1,8 +1,7 @@
 {- |
-Module :  RomanNumeralsTest
+Module : RomanNumeralsTest
 -}
-
 module RomanNumeralsTest where
 
 import Test.QuickCheck
-import RomanNumerals (toRoman)
+import RomanNumerals
