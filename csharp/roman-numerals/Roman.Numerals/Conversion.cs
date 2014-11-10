@@ -12,22 +12,13 @@ namespace Roman.Numerals
   /// </summary>
   public class Conversion
   {
-    private static readonly List<KeyValuePair<uint, string>> alphabet = new List<KeyValuePair<uint, string>>()
+    private static readonly IComparer<uint> reverseComparer = Comparer<uint>.Create((x, y) => y.CompareTo(x));
+    private static readonly SortedDictionary<uint, string> alphabet = new SortedDictionary<uint, string>(reverseComparer)
     {
-      new KeyValuePair<uint, string>(1000,  "M"),
-      new KeyValuePair<uint, string>( 900, "CM"),
-      new KeyValuePair<uint, string>( 500,  "D"),
-      new KeyValuePair<uint, string>( 400, "CD"),
-      new KeyValuePair<uint, string>( 100,  "C"),
-      new KeyValuePair<uint, string>(  90, "XC"),
-      new KeyValuePair<uint, string>(  50,  "L"),
-      new KeyValuePair<uint, string>(  40, "XL"),
-      new KeyValuePair<uint, string>(  10,  "X"),
-      new KeyValuePair<uint, string>(   9, "IX"),
-      new KeyValuePair<uint, string>(   5,  "V"),
-      new KeyValuePair<uint, string>(   4, "IV"),
-      new KeyValuePair<uint, string>(   1,  "I"),
-      new KeyValuePair<uint, string>(   0,   "")
+      { 1000,  "M" }, { 900, "CM" }, { 500,  "D" }, { 400, "CD" },
+      {  100,  "C" }, {  90, "XC" }, {  50,  "L" }, {  40, "XL" },
+      {   10,  "X" }, {   9, "IX" }, {   5,  "V" }, {   4, "IV" },
+      {    1,  "I" }, {   0,   "" }
     };
 
     /// <summary>

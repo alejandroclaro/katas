@@ -1,17 +1,17 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Roman.Numerals/Conversion.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Roman.Numerals.Test/ConversionTest.cs">
     <Files>
-      <File FileName="Roman.Numerals.Test/ConversionTest.cs" Line="24" Column="24" />
-      <File FileName="Roman.Numerals/Conversion.cs" Line="26" Column="16" />
+      <File FileName="Roman.Numerals.Test/ConversionTest.cs" Line="19" Column="19" />
+      <File FileName="Roman.Numerals/Conversion.cs" Line="15" Column="154" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True" selected="True">
+        <State expanded="True">
           <Node name="Roman.Numerals" expanded="True">
             <Node name="References" expanded="True" />
           </Node>
-          <Node name="Roman.Numerals.Test" expanded="True">
+          <Node name="Roman.Numerals.Test" expanded="True" selected="True">
             <Node name="References" expanded="True" />
           </Node>
         </State>
@@ -26,17 +26,7 @@
         <State selected="True" />
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True">
-          <Node name="Roman.Numerals.Test" expanded="True" selected="True">
-            <Node name="Roman" expanded="True">
-              <Node name="Numerals" expanded="True">
-                <Node name="Test" expanded="True">
-                  <Node name="ConversionTest" expanded="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
+        <State expanded="True" selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
