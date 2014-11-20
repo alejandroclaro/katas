@@ -63,4 +63,8 @@ describe("to_roman function", function()
     assert.are.equals("M", roman_numerals.to_roman(1000))
   end)
 
+  it("should convert 2378 to MMCCCLXXVIII", function()
+    assert.are.equals("MMCCCLXXVIII", roman_numerals.to_roman(2378))
+  end)
+
 end)
