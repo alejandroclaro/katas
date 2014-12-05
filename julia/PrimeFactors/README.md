@@ -1,1 +1,0 @@
-Prime factors code kata.
