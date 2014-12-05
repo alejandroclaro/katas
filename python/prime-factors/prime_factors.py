@@ -4,10 +4,12 @@ Code kata: Compute prime factors if a given natural number.
 
 def compute_primes(number):
   """
-  Computes prime factors if a given natural number.
+  Computes prime factors of a given natural number.
 
   @type  number: Integer.
   @param number: The natural number.
+
+  @return A list with the prime factors.
   """
   return _compute_primes(2, number, [])
 
