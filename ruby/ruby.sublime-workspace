@@ -151,18 +151,15 @@
 			"file": "roman-numerals/roman_numerals.rb",
 			"settings":
 			{
-				"buffer_size": 283,
+				"buffer_size": 660,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "#\n# Roman numerals code kata unit tests.\n#\n\nrequire_relative \"roman_numerals\"\nrequire \"test/unit\"\n\nclass TestRomanNumerals < Test::Unit::TestCase\n\n  def test_to_roman_1\n    assert_equal(\"I\", to_roman(1))\n  end\n\n  def test_to_roman_2\n    assert_equal(\"II\", to_roman(2))\n  end\n\nend\n",
 			"file": "roman-numerals/test_roman_numerals.rb",
-			"file_size": 298,
-			"file_write_time": 130609607601757577,
 			"settings":
 			{
-				"buffer_size": 280,
+				"buffer_size": 1187,
 				"line_ending": "Windows"
 			}
 		}
@@ -170,9 +167,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 165.0,
+		"height": 298.0,
 		"selected_items":
 		[
+			[
+				"git sts",
+				"Git: Status"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -342,10 +347,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
 				"list",
 				"Package Control: List Packages"
 			],
@@ -407,6 +408,11 @@
 	],
 	"file_history":
 	[
+		"/home/aclaro64/SourceCode/github/katas/python/roman-numerals/roman_numerals.py",
+		"/home/aclaro64/SourceCode/github/katas/python/roman-numerals/test_roman_numerals.py",
+		"/home/aclaro64/SourceCode/github/katas/ruby/README.md",
+		"/home/aclaro64/SourceCode/github/katas/lua/roman-numerals/roman_numerals_spec.lua",
+		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/test/test_roman_numerals.clj",
 		"/home/aclaro64/SourceCode/github/katas/ruby/ruby.sublime-project",
 		"/home/aclaro64/.cache/.fr-dpmXMY/SAES-7080011/election.xml",
 		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/andres_sanchez/ballot-information-viewer/ballot-information.xml",
@@ -462,7 +468,6 @@
 		"/home/aclaro/SourceCode/CNE API Biometrico Cliente/TOOLS/Extractor.Validator/Extractor.Api.Validator/Model/ValidationTask.cs",
 		"/home/aclaro/SourceCode/CNE API Biometrico Cliente/.NET/trunk/Capturer/Source Code/CNE.Devices/FingerprintReaders/AbstractFingerprintReader.cs",
 		"/home/aclaro64/SourceCode/github/katas/bash/roman-numerals/to-roman.sh",
-		"/home/aclaro64/SourceCode/github/katas/python/roman-numerals/roman_numerals.py",
 		"/home/aclaro64/SourceCode/github/katas/c++11/roman-numerals/src/RomanNumerals.cpp",
 		"/home/aclaro64/SourceCode/github/katas/csharp/README.md",
 		"/home/aclaro64/SourceCode/github/katas/csharp/roman-numerals/R/R.csproj",
@@ -476,12 +481,10 @@
 		"/home/aclaro64/SourceCode/github/katas/sml/roman-numerals/roman-numerals.sml",
 		"/home/aclaro64/SourceCode/github/katas/haskell/roman-numerals/RomanNumerals.hs",
 		"/home/aclaro64/SourceCode/github/katas/haskell/roman-numerals/RomanNumeralsTest.hs",
-		"/home/aclaro64/SourceCode/github/katas/python/roman-numerals/test_roman_numerals.py",
 		"/home/aclaro64/SourceCode/github/katas/lua/roman-numerals/spec/roman_numerals_spec.lua",
 		"/home/aclaro64/SourceCode/github/katas/lua/roman-numerals/src/roman_numerals.lua",
 		"/home/aclaro64/.config/sublime-text-3/Packages/User/luabusted.sublime-build",
 		"/home/aclaro64/SourceCode/github/katas/lua/roman-numerals/roman_numerals.lua",
-		"/home/aclaro64/SourceCode/github/katas/lua/roman-numerals/roman_numerals_spec.lua",
 		"/home/aclaro64/SourceCode/github/katas/lua/lua.sublime-project",
 		"/home/aclaro64/SourceCode/github/katas/c++11/roman-numerals/src/RomanNumerals.h",
 		"/home/aclaro64/SourceCode/github/katas/c++98/roman-numerals/src/RomanNumerals.h",
@@ -495,7 +498,6 @@
 		"/home/aclaro64/SourceCode/github/katas/c/roman-numerals/src/roman-numerals.h",
 		"/home/aclaro64/SourceCode/github/katas/c++98/c++98.sublime-project",
 		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/src/roman_numerals.clj",
-		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/test/test_roman_numerals.clj",
 		"/home/aclaro64/SourceCode/github/katas/c/roman-numerals/Makefile",
 		"/home/aclaro64/SourceCode/github/katas/c/roman-numerals/src/roman-numerals.c",
 		"/home/aclaro64/SourceCode/SAES_A3_API/examples/fingerprint-matcher/main.cpp",
@@ -533,8 +535,7 @@
 		"/home/aclaro64/Desktop/1800/EMS/DocumentacionSLI/EML-ENCRYPTED-Sample.xml",
 		"/home/aclaro64/SourceCode/github/katas/python/katas.sublime-project",
 		"/home/aclaro64/SourceCode/github/katas/python/katas.sublime-workspace",
-		"/home/aclaro64/Downloads/device-configuration.xml",
-		"/home/aclaro64/Downloads/election-string-resourceses.xml"
+		"/home/aclaro64/Downloads/device-configuration.xml"
 	],
 	"find":
 	{
@@ -554,6 +555,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"XC",
+			"assert_equals",
 			"remove_filled",
 			"store_",
 			"point_array",
@@ -660,6 +663,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"assert_equal",
 			"digit_symbol",
 			"digit_value",
 			"_score_strike",
@@ -701,15 +705,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 283,
+						"buffer_size": 660,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								283,
-								283
+								573,
+								573
 							]
 						],
 						"settings":
@@ -735,23 +739,23 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 280,
+						"buffer_size": 1187,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								280,
-								280
+								834,
+								834
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 816.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -806,6 +810,10 @@
 	{
 		"height": 0.0
 	},
+	"output.git-commit":
+	{
+		"height": 112.0
+	},
 	"output.haskell_sublime_load":
 	{
 		"height": 34.0
@@ -813,7 +821,7 @@
 	"project": "ruby.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
