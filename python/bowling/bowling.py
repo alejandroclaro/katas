@@ -6,7 +6,7 @@ def score(game):
   """
   Computes the game score.
 
-  @type  game: [0-9] integers list.
+  @type  game: [0-10] integers list.
   @param game: The bolwing game rolls.
   """
   result = 0

@@ -3,7 +3,7 @@
 #
 
 module RomanNumerals
-export toRoman
+export to_roman
 
 #
 # @brief Converts an arabic numeral to roman.
@@ -12,7 +12,7 @@ export toRoman
 #
 # @return The roman numeral as a string.
 #
-function toRoman(number::Int64)
+function to_roman(number::Int64)
   const ALPHABET = [(1000, "M"), (900, "CM"), (500, "D"), (400, "CD"),
                     ( 100, "C"), ( 90, "XC"), ( 50, "L"), ( 40, "XL"),
                     (  10, "X"), (  9, "IX"), (  5, "V"), (  4, "IV"),
