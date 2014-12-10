@@ -12,9 +12,11 @@ export score
 #
 # @return The game score as a integer.
 #
-function score(game)
-  roll::Int64   = 1
-  result::Int64 = 0
+function score{T <: Integer}(game::AbstractArray{T})
+  missing_rolls  = max(0, 20 - length(game))
+  game           = [game, zeros(missing_rolls)]
+  roll::Int64    = 1
+  result::Int64  = 0
 
   for frame in [1:10]
     if isstrike(game, roll)
