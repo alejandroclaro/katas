@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"le",
+				"length"
+			],
+			[
+				"roll",
+				"roll"
+			],
+			[
 				"al",
 				"algorithm"
 			],
@@ -191,21 +199,29 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "PrimeFactors/src/PrimeFactors.jl",
-			"settings":
-			{
-				"buffer_size": 454,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/IJulia/julia-build.sublime-build",
 	"command_palette":
 	{
-		"height": 298.0,
+		"height": 89.0,
 		"selected_items":
 		[
+			[
+				"repl rub",
+				"SublimeREPL: Ruby"
+			],
+			[
+				"repl ru",
+				"SublimeREPL: Ruby"
+			],
+			[
+				"repl sml",
+				"SublimeREPL: SML"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
 			[
 				"git sts",
 				"Git: Status"
@@ -235,20 +251,8 @@
 				"Package Control: Install Package"
 			],
 			[
-				"repl ru",
-				"SublimeREPL: Ruby"
-			],
-			[
-				"repl rub",
-				"SublimeREPL: Ruby"
-			],
-			[
 				"repl r",
 				"SublimeREPL: Ruby"
-			],
-			[
-				"repl sml",
-				"SublimeREPL: SML"
 			],
 			[
 				"repl sm",
@@ -273,10 +277,6 @@
 			[
 				"repl p",
 				"SublimeREPL: Python"
-			],
-			[
-				"git sta",
-				"Git: Status"
 			],
 			[
 				"ind",
@@ -431,7 +431,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 466.0
+		"width": 395.0
 	},
 	"console":
 	{
@@ -452,32 +452,39 @@
 	},
 	"expanded_folders":
 	[
-		"/home/aclaro64/SourceCode/github/katas/julia/PrimeFactors",
-		"/home/aclaro64/SourceCode/github/katas/julia/PrimeFactors/src",
-		"/home/aclaro64/SourceCode/github/katas/julia/PrimeFactors/test",
-		"/home/aclaro64/SourceCode/github/katas/julia/Bowling",
-		"/home/aclaro64/SourceCode/github/katas/julia/Bowling/src",
-		"/home/aclaro64/SourceCode/github/katas/julia/Bowling/test"
 	],
 	"file_history":
 	[
+		"/tmp/2d7b53607c3711e49f74199a544ee13e.rb",
+		"/tmp/90f0ac80743811e4b36e557ac7b2efb0.rb",
+		"/home/aclaro64/SourceCode/SAES_6_Linux/plugins/voting-experience/saes-1800/src/Configuration/MachineParameters.cpp",
+		"/home/aclaro64/SourceCode/SAES_6_Linux/applications/election/share/SAES/device-configuration.xml",
+		"/tmp/ee4297f0779d11e4a515bff856f4e780.rb",
+		"/tmp/exam.rb",
+		"/home/aclaro64/SourceCode/github/courses/cs341-programming-languages/hw4/hw4.rkt",
+		"/home/aclaro64/SourceCode/github/courses/cs341-programming-languages/hw5/hw5.rkt",
+		"/home/aclaro64/SourceCode/github/courses/cs341-programming-languages/hw4/hw4test.rkt",
+		"/home/aclaro64/SourceCode/github/courses/cs341-programming-languages/hw6/hw6provided.rb",
+		"/home/aclaro64/SourceCode/github/katas/julia/FizzBuzz/runtests.jl",
+		"/home/aclaro64/SourceCode/github/katas/julia/FizzBuzz/test/FizzBuzz.jl",
+		"/home/aclaro64/SourceCode/github/katas/julia/FizzBuzz/src/FizzBuzz.jl",
+		"/home/aclaro64/SourceCode/github/katas/julia/Bowling/runtests.jl",
+		"/home/aclaro64/SourceCode/github/katas/julia/Bowling/src/Bowling.jl",
+		"/home/aclaro64/SourceCode/github/katas/julia/Bowling/test/Bowling.jl",
+		"/home/aclaro64/SourceCode/github/katas/julia/PrimeFactors/test/PrimeFactors.jl",
+		"/home/aclaro64/SourceCode/github/katas/julia/PrimeFactors/src/PrimeFactors.jl",
+		"/home/aclaro64/SourceCode/github/katas/julia/RomanNumerals/src/RomanNumerals.jl",
+		"/home/aclaro64/SourceCode/github/katas/julia/RomanNumerals/test/RomanNumerals.jl",
 		"/home/aclaro64/SourceCode/SAES_A3_API/saes/include/Saes/Convert.inl",
 		"/home/aclaro64/Desktop/commonLetters.cpp",
 		"/tmp/prime.cpp",
-		"/home/aclaro64/SourceCode/github/katas/julia/Bowling/test/Bowling.jl",
 		"/home/aclaro64/SourceCode/github/katas/python/bowling/bowling.py",
-		"/home/aclaro64/SourceCode/github/katas/julia/Bowling/src/Bowling.jl",
-		"/home/aclaro64/SourceCode/github/katas/julia/Bowling/runtests.jl",
-		"/home/aclaro64/SourceCode/github/katas/julia/PrimeFactors/src/PrimeFactors.jl",
 		"/home/aclaro64/SourceCode/github/katas/julia/PrimeFactors/runtests.jl",
-		"/home/aclaro64/SourceCode/github/katas/julia/PrimeFactors/test/PrimeFactors.jl",
 		"/home/aclaro64/SourceCode/github/katas/python/prime-factors/prime_factors.py",
 		"/home/aclaro64/SourceCode/github/katas/python/prime-factors/test_prime_factors.py",
-		"/home/aclaro64/SourceCode/github/katas/julia/RomanNumerals/src/RomanNumerals.jl",
 		"/home/aclaro64/SourceCode/github/katas/julia/PrimeFactors/.travis.yml",
 		"/home/aclaro64/SourceCode/github/katas/julia/PrimeFactors/README.md",
 		"/home/aclaro64/SourceCode/github/katas/julia/PrimeFactors/LICENSE.md",
-		"/home/aclaro64/SourceCode/github/katas/julia/RomanNumerals/test/RomanNumerals.jl",
 		"/home/aclaro64/SourceCode/github/katas/julia/julia.sublime-project",
 		"/home/aclaro64/SourceCode/github/katas/julia/RomanNumerals/runtests.jl",
 		"/home/aclaro64/SourceCode/github/katas/python/roman-numerals/roman_numerals.py",
@@ -565,7 +572,6 @@
 		"/home/aclaro64/.cache/.fr-dpmXMY/SAES-7080011/election.xml",
 		"/media/aclaro64/aclaro_usb/Testing_Mariana/7080011-ARMM-BASILAN-ballot-information.xml",
 		"/home/aclaro64/SourceCode/github/courses/cs341-programming-languages/hw6/hw6assignment.rb",
-		"/home/aclaro64/SourceCode/github/courses/cs341-programming-languages/hw6/hw6provided.rb",
 		"/home/aclaro64/SourceCode/github/courses/cs341-programming-languages/hw6/hw6graphics.rb",
 		"/home/aclaro64/SourceCode/github/courses/cs341-programming-languages/hw6/hw6runner.rb",
 		"/tmp/ballot-information.xml",
@@ -576,19 +582,7 @@
 		"/media/aclaro64/remote/transmission_tool_filipinas/transmission_tool/conf/transmission_tool.properties",
 		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/SAES-7080011/device-configuration.xml",
 		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/voting-device.xml",
-		"/media/aclaro64/AUTH/transmission-package.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/election.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/device-configuration.xml",
-		"/home/aclaro64/transmission-package.xml",
-		"/home/aclaro64/.cache/.fr-oTlfmW/SAES-7080011/election.xml",
-		"/home/aclaro64/.cache/.fr-wpo1u9/SAES-7080011/ballot-information.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/applications/election/share/SAES/device-configuration.xml",
-		"/media/aclaro64/aclaro_usb/server.properties",
-		"/home/aclaro64/Downloads/scroll.rar",
-		"/home/aclaro64/.cache/.fr-JylSKV/SAES-7080011/voting-device.xml",
-		"/tmp/F. Sample Report Formats.rar",
-		"/tmp/svn.log",
-		"/home/aclaro64/.cache/.fr-HSL1O3/SAES-7080011/voting-device.xml"
+		"/media/aclaro64/AUTH/transmission-package.xml"
 	],
 	"find":
 	{
@@ -608,6 +602,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"preprocess_prog",
+			"eval_prog",
+			"stream",
+			"missingRolls",
+			"score_spare",
+			"score_strike",
+			"toRoman",
+			"scoreFrame",
+			"scoreSpare",
+			"isSpare",
+			"scoreStrike",
+			"isStrike",
 			"roman_numerals",
 			"test_roman_9_return_IX",
 			", ",
@@ -723,15 +729,7 @@
 			"unbl",
 			"Only",
 			"aps",
-			"m_secondsUpdateInterval",
-			"    ",
-			"64",
-			",",
-			"0",
-			",",
-			"64",
-			"0",
-			"PooledThread"
+			"m_secondsUpdateInterval"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -739,6 +737,15 @@
 		"regex": false,
 		"replace_history":
 		[
+			"missing_rolls",
+			"score_spare_bonus",
+			"score_strike_bonus",
+			"to_roman",
+			"score_frame",
+			"score_spare",
+			"isspare",
+			"score_strike",
+			"isstrike",
 			"=>",
 			", ",
 			" => ",
@@ -781,45 +788,11 @@
 			"sheets":
 			[
 			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "PrimeFactors/src/PrimeFactors.jl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 454,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								226,
-								226
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/IJulia/Syntax/Julia.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 33.0
 	},
 	"input":
 	{
@@ -834,18 +807,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.747266610597,
 			1.0
 		],
 		"rows":
@@ -861,7 +827,7 @@
 	},
 	"output.git-commit":
 	{
-		"height": 112.0
+		"height": 27.0
 	},
 	"output.haskell_sublime_load":
 	{
@@ -891,7 +857,7 @@
 	},
 	"select_symbol":
 	{
-		"height": 89.0,
+		"height": 279.0,
 		"selected_items":
 		[
 		],
@@ -904,7 +870,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 177.0,
 	"status_bar_visible": true,
 	"template_settings":
