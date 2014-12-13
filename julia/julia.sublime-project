@@ -1,12 +1,4 @@
 {
-	"build_systems":
-	[
-		{
-			"name": "Anaconda Python Builder",
-			"selector": "source.python",
-			"shell_cmd": "python -u \"$file\""
-		}
-	],
 	"folders":
 	[
 		{
@@ -24,6 +16,10 @@
 		{
 			"follow_symlinks": true,
 			"path": "FizzBuzz"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "CodeJamAfrica2010"
 		}
 	]
 }
