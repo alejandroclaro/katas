@@ -29,6 +29,10 @@
 		{
 			"follow_symlinks": true,
 			"path": "CodeJamAfrica2010"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "PrimeNumbers"
 		}
 	]
 }
