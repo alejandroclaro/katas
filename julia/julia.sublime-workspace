@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"Int",
+				"Int64"
+			],
+			[
+				"maxi",
+				"maximum"
+			],
+			[
+				"sea",
+				"seats"
+			],
+			[
 				"le",
 				"length"
 			],
@@ -203,9 +215,17 @@
 	"build_system": "Packages/IJulia/julia-build.sublime-build",
 	"command_palette":
 	{
-		"height": 89.0,
+		"height": 352.0,
 		"selected_items":
 		[
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
 			[
 				"repl rub",
 				"SublimeREPL: Ruby"
@@ -217,10 +237,6 @@
 			[
 				"repl sml",
 				"SublimeREPL: SML"
-			],
-			[
-				"git sta",
-				"Git: Status"
 			],
 			[
 				"git sts",
@@ -431,7 +447,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 395.0
+		"width": 466.0
 	},
 	"console":
 	{
@@ -455,6 +471,27 @@
 	],
 	"file_history":
 	[
+		"/home/aclaro64/Downloads/EffectiveCppSummary.pdf",
+		"/home/aclaro64/SourceCode/SAES_A3_API/saes-devices/src/Networking/UnixNetworkInterface.cpp",
+		"/home/aclaro64/SourceCode/SAES_A3_API/saes-devices/include/Saes/Devices/Networking/NetworkInterface.h",
+		"/home/aclaro64/SourceCode/github/katas/julia/NthPrimeNumber/runtests.jl",
+		"/home/aclaro64/SourceCode/github/katas/julia/PrimeNumbers/test/PrimeNumbers.jl",
+		"/home/aclaro64/SourceCode/github/katas/julia/PrimeNumbers/src/PrimeNumbers.jl",
+		"/home/aclaro64/.cache/.fr-EOGQXn/D.py",
+		"/home/aclaro64/.cache/.fr-I7X4gV/d.cpp",
+		"/home/aclaro64/.cache/.fr-cTKlJl/d.py",
+		"/home/aclaro64/SourceCode/github/katas/julia/julia.sublime-project",
+		"/home/aclaro64/SourceCode/github/katas/julia/FizzBuzz/src/FizzBuzz.jl",
+		"/home/aclaro64/SourceCode/github/katas/julia/CodeJamAfrica2010/1Online/c.jl",
+		"/home/aclaro64/SourceCode/github/katas/julia/CodeJamAfrica2010/1Online/out/c.out",
+		"/home/aclaro64/SourceCode/github/katas/julia/CodeJamAfrica2010/1Online/in/c.in",
+		"/home/aclaro64/.cache/.fr-SfKJA8/QualificationRound.java",
+		"/home/aclaro64/.cache/.fr-pnMwrw/C-online.cpp",
+		"/home/aclaro64/.cache/.fr-UAPsDQ/c1.py",
+		"/home/aclaro64/.cache/.fr-Kxh1fF/c.cpp",
+		"/home/aclaro64/.cache/.fr-OwYHmT/Qualification.cpp",
+		"/home/aclaro64/.cache/.fr-Ao1fy8/C.cpp",
+		"/home/aclaro64/SourceCode/github/katas/julia/CodeJamAfrica2010/1Online/a.jl",
 		"/tmp/2d7b53607c3711e49f74199a544ee13e.rb",
 		"/tmp/90f0ac80743811e4b36e557ac7b2efb0.rb",
 		"/home/aclaro64/SourceCode/SAES_6_Linux/plugins/voting-experience/saes-1800/src/Configuration/MachineParameters.cpp",
@@ -467,7 +504,6 @@
 		"/home/aclaro64/SourceCode/github/courses/cs341-programming-languages/hw6/hw6provided.rb",
 		"/home/aclaro64/SourceCode/github/katas/julia/FizzBuzz/runtests.jl",
 		"/home/aclaro64/SourceCode/github/katas/julia/FizzBuzz/test/FizzBuzz.jl",
-		"/home/aclaro64/SourceCode/github/katas/julia/FizzBuzz/src/FizzBuzz.jl",
 		"/home/aclaro64/SourceCode/github/katas/julia/Bowling/runtests.jl",
 		"/home/aclaro64/SourceCode/github/katas/julia/Bowling/src/Bowling.jl",
 		"/home/aclaro64/SourceCode/github/katas/julia/Bowling/test/Bowling.jl",
@@ -485,7 +521,6 @@
 		"/home/aclaro64/SourceCode/github/katas/julia/PrimeFactors/.travis.yml",
 		"/home/aclaro64/SourceCode/github/katas/julia/PrimeFactors/README.md",
 		"/home/aclaro64/SourceCode/github/katas/julia/PrimeFactors/LICENSE.md",
-		"/home/aclaro64/SourceCode/github/katas/julia/julia.sublime-project",
 		"/home/aclaro64/SourceCode/github/katas/julia/RomanNumerals/runtests.jl",
 		"/home/aclaro64/SourceCode/github/katas/python/roman-numerals/roman_numerals.py",
 		"/home/aclaro64/SourceCode/github/katas/sml/roman-numerals/roman-numerals.sml",
@@ -563,26 +598,7 @@
 		"/tmp/EMS/voting-devices-map.xml",
 		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/mirror/SAES/voting-device.xml",
 		"/tmp/voting-devices-map.xml",
-		"/tmp/production-key.xml",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/andres_sanchez/ballot-information-viewer/ballot-information.xml",
-		"/home/aclaro64/Downloads/6205007_PNG.rar",
-		"/home/aclaro64/SourceCode/github/katas/ruby/README.md",
-		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/test/test_roman_numerals.clj",
-		"/home/aclaro64/SourceCode/github/katas/ruby/ruby.sublime-project",
-		"/home/aclaro64/.cache/.fr-dpmXMY/SAES-7080011/election.xml",
-		"/media/aclaro64/aclaro_usb/Testing_Mariana/7080011-ARMM-BASILAN-ballot-information.xml",
-		"/home/aclaro64/SourceCode/github/courses/cs341-programming-languages/hw6/hw6assignment.rb",
-		"/home/aclaro64/SourceCode/github/courses/cs341-programming-languages/hw6/hw6graphics.rb",
-		"/home/aclaro64/SourceCode/github/courses/cs341-programming-languages/hw6/hw6runner.rb",
-		"/tmp/ballot-information.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/TransmissionPackages/eml.xml",
-		"/home/aclaro64/.cache/.fr-H4AN5l/SAES-7080011/ballot-information.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/SAES-7080011/voting-device.xml",
-		"/media/aclaro64/AUTH/transmission_tool_filipinas/transmission_tool/packages/station-tally-package-RESULTS-7080011-1416323433971.xml",
-		"/media/aclaro64/remote/transmission_tool_filipinas/transmission_tool/conf/transmission_tool.properties",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/SAES-7080011/device-configuration.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/voting-device.xml",
-		"/media/aclaro64/AUTH/transmission-package.xml"
+		"/tmp/production-key.xml"
 	],
 	"find":
 	{
@@ -602,6 +618,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tr",
+			"sort",
 			"preprocess_prog",
 			"eval_prog",
 			"stream",
@@ -727,9 +745,7 @@
 			"SAES_VOTINGEXPERIENCE_BALLOTPROCESSING_",
 			"№",
 			"unbl",
-			"Only",
-			"aps",
-			"m_secondsUpdateInterval"
+			"Only"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -788,6 +804,11 @@
 			"sheets":
 			[
 			]
+		},
+		{
+			"sheets":
+			[
+			]
 		}
 	],
 	"incremental_find":
@@ -807,11 +828,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -870,7 +898,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 177.0,
 	"status_bar_visible": true,
 	"template_settings":
