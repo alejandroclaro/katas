@@ -5,47 +5,53 @@
 # @copyright 2015 Alejandro Claro.
 #
 
-function regular_step(plates)
-  return filter(x -> x > 0, map(x -> x - 1, plates))
-end
-
-function special_step(plates)
-  result      = copy(plates)
-  pancakes    = pop!(result)
+function special_step(plates, fraction)
+  pancakes    = pop!(plates)
   move::Int32 = 0
 
-  if rem(plates[end], 2) == 0
-    move = div(pancakes, 2)
-  else
-    move = div(pancakes, 3)
-  end
+  move = div(pancakes, fraction)
 
   plate_x = pancakes - move
   plate_y = move
 
-  insert!(result, searchsortedfirst(result, plate_x), plate_x)
-  insert!(result, searchsortedfirst(result, plate_y), plate_y)
-
-  return result
-end
-
-function step(plates, result::Int32)
-  if plates[end] <= 2
-    return result + plates[end]
+  if plate_x > 0
+    insert!(plates, searchsortedfirst(plates, plate_x), plate_x)
   end
 
-  result  = result + 1
-  regular = regular_step(plates)
-  special = special_step(plates)
+  if plate_y > 0
+    insert!(plates, searchsortedfirst(plates, plate_y), plate_y)
+  end
 
-  return min(step(regular, result), step(special, result))
+  return plates
 end
 
 function solve(plates)
   sort!(plates)
-  result = 0
 
-  return step(plates, result)
+  result::Int32  = 0
+  optimal::Int32 = plates[end]
+
+  while plates[end] > 2 && result < optimal
+    halfPlates  = special_step(copy(plates), 2)
+    thirdPlates = special_step(special_step(copy(plates), 3), 3)
+
+    halfTime  = halfPlates[end]  + 1
+    thirdTime = thirdPlates[end] + 2
+
+    if thirdTime < halfTime
+      plates  = thirdPlates
+      optimal = min(optimal, result + thirdTime)
+      result += 2
+    else
+      plates  = halfPlates
+      optimal = min(optimal, result + halfTime)
+      result += 1
+    end
+
+    #println("$result | $optimal | plates")
+  end
+
+  return min(optimal, result + plates[end])
 end
 
 function read_case(f)
@@ -62,6 +68,8 @@ cases = parse(Int32, readline(input))
 for i in [1:cases;]
   plates = read_case(input)
   result = solve(plates)
+
+  println("Case #$i $plates -> $result")
   write(output, "Case #$i: $result\n")
 end
 
