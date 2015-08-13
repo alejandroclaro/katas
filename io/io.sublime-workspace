@@ -127,10 +127,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 352.0,
-		"last_filter": "",
+		"height": 329.0,
+		"last_filter": "instal",
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
 			[
 				"git sta",
 				"Git: Status"
@@ -192,10 +204,6 @@
 				"SublimeREPL: SML"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
 				"insta",
 				"Package Control: Install Package"
 			],
@@ -228,10 +236,6 @@
 				"Package Control: List Packages"
 			],
 			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
 				"rmeove",
 				"Package Control: Remove Package"
 			],
@@ -248,7 +252,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 526.0
+		"width": 546.0
 	},
 	"console":
 	{
@@ -269,11 +273,17 @@
 	},
 	"expanded_folders":
 	[
-		"/home/aclaro64/SourceCode/github/katas/sml",
-		"/home/aclaro64/SourceCode/github/katas/sml/roman-numerals"
+		"/home/aclaro64/SourceCode/github/katas/io",
+		"/home/aclaro64/SourceCode/github/katas/io/fizzbuzz"
 	],
 	"file_history":
 	[
+		"/home/aclaro64/SourceCode/saes_6/scripts/create-release-makefiles.sh",
+		"/home/aclaro64/SourceCode/saes_6/scripts/create-debug-makefiles.sh",
+		"/home/aclaro64/SourceCode/github/katas/io/fizzbuzz/runTests.io",
+		"/home/aclaro64/SourceCode/github/katas/io/fizzbuzz/FizzBuzzTest.io",
+		"/home/aclaro64/SourceCode/github/katas/io/fizzbuzz/FizzBuzz.io",
+		"/home/aclaro64/SourceCode/github/katas/io/io.sublime-project",
 		"/home/aclaro64/SourceCode/github/katas/sml/fizzbuzz/test-fizzbuzz.sml",
 		"/home/aclaro64/SourceCode/github/katas/sml/fizzbuzz/fizzbuzz.sml",
 		"/home/aclaro64/SourceCode/github/katas/sml/roman-numerals/roman-numerals.sml",
@@ -395,17 +405,11 @@
 		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/workflows-status.xml",
 		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/BallotInformation.cpp",
 		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/Votes/dAp17i",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/machine-state.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/Votes/gxto14",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/BallotInformation.h",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/BallotProcessing.cpp",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/BallotProcessing.h",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/InvalidBallotException.h",
-		"/home/aclaro64/.cache/.fr-hJg9gO/adc_v1/prucode_adc.p"
+		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/machine-state.xml"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -421,6 +425,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			")\n",
+			"TestSuite clone setPath(System launchPath) run\n",
 			"compute_fizzbuzz",
 			"roman_digit",
 			"value",
@@ -531,7 +537,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 35.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -562,7 +568,7 @@
 		"rows":
 		[
 			0.0,
-			0.595679012346,
+			0.5,
 			1.0
 		]
 	},
@@ -571,15 +577,11 @@
 	{
 		"height": 0.0
 	},
-	"output.git-commit":
-	{
-		"height": 124.0
-	},
 	"pinned_build_system": "",
-	"project": "sml.sublime-project",
+	"project": "io.sublime-project",
 	"replace":
 	{
-		"height": 66.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -617,7 +619,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 260.0,
+	"side_bar_width": 207.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
