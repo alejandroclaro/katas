@@ -4,12 +4,8 @@
 		"selected_items":
 		[
 			[
-				"le",
-				"length"
-			],
-			[
-				"f",
-				"fun	SML 'fun' function"
+				"CMAKE_C_FLAGS_RE",
+				"CMAKE_C_FLAGS_RELWITHDEBINFO"
 			],
 			[
 				"ro",
@@ -135,10 +131,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 372.0,
-		"last_filter": "",
+		"height": 392.0,
+		"last_filter": "gits",
 		"selected_items":
 		[
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
 			[
 				"git sta",
 				"Git: Status"
@@ -200,10 +212,6 @@
 				"SublimeREPL: SML"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
 				"insta",
 				"Package Control: Install Package"
 			],
@@ -236,10 +244,6 @@
 				"Package Control: List Packages"
 			],
 			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
 				"rmeove",
 				"Package Control: Remove Package"
 			],
@@ -256,7 +260,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 524.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -275,20 +279,34 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/home/aclaro64/SourceCode/github/katas/sml",
-		"/home/aclaro64/SourceCode/github/katas/sml/fizzbuzz",
-		"/home/aclaro64/SourceCode/github/katas/sml/roman-numerals",
-		"/home/aclaro64/SourceCode/github/katas/sml/sort"
-	],
 	"file_history":
 	[
-		"/home/aclaro64/SourceCode/github/katas/sml/sort/sort.sml",
-		"/home/aclaro64/SourceCode/github/katas/sml/sort/test-sort.sml",
-		"/home/aclaro64/SourceCode/github/katas/sml/smlunit",
-		"/home/aclaro64/SourceCode/github/katas/sml/fizzbuzz/fizzbuzz.sml",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/ballot-viewer/CMakeLists.txt",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/file-encryptor/CMakeLists.txt",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/file-encryptor-gui/CMakeLists.txt",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/saes-extractor/CMakeLists.txt",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/saes-extractor-gui/CMakeLists.txt",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/saes-ibutton/CMakeLists.txt",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/transmission-package-verifier/CMakeLists.txt",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/saes-extractor-gui/src/config.h.in",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/transmission-package-verifier/src/config.h.in",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/ballot-viewer/src/config.h.in",
+		"/home/aclaro64/SourceCode/esbu_dev_saes_cpp_framework/CMakeLists.txt",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/saes-ibutton/src/config.h.in",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/saes-extractor/src/config.h.in",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/file-encryptor-gui/src/config.h.in",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/saes-ibutton/cmake/FindOwcapi.cmake",
+		"/home/aclaro64/SourceCode/saes_6/scripts/create-release-makefiles.sh",
+		"/home/aclaro64/SourceCode/saes_framework/scripts/create-release-makefiles.sh",
+		"/home/aclaro64/SourceCode/saes_framework/scripts/create-debug-makefiles.sh",
+		"/home/aclaro64/SourceCode/github/katas/io/fizzbuzz/FizzBuzzTest.io",
+		"/home/aclaro64/SourceCode/github/katas/io/fizzbuzz/FizzBuzz.io",
+		"/home/aclaro64/SourceCode/github/katas/io/README.md",
+		"/home/aclaro64/SourceCode/saes_6/scripts/create-debug-makefiles.sh",
+		"/home/aclaro64/SourceCode/github/katas/io/fizzbuzz/runTests.io",
+		"/home/aclaro64/SourceCode/github/katas/io/io.sublime-project",
 		"/home/aclaro64/SourceCode/github/katas/sml/fizzbuzz/test-fizzbuzz.sml",
+		"/home/aclaro64/SourceCode/github/katas/sml/fizzbuzz/fizzbuzz.sml",
 		"/home/aclaro64/SourceCode/github/katas/sml/roman-numerals/roman-numerals.sml",
 		"/home/aclaro64/SourceCode/github/katas/clojure/roman-numerals/src/roman_numerals.clj",
 		"/home/aclaro64/SourceCode/github/katas/sml/roman-numerals/test-roman-numerals.sml",
@@ -390,32 +408,11 @@
 		"/home/aclaro64/Desktop/1800/BBB/BOOT/nfs-uEnv.txt",
 		"/home/aclaro64/Desktop/1800/BBB/BOOT/uEnv.txt",
 		"/home/aclaro64/Desktop/1800/lcd_version4/FW_LCD_V4/keypad.txt",
-		"/home/aclaro64/Downloads/transmission-package_v7.0.7.xsd",
-		"/media/aclaro64/BOOT/scripts/setup-ubuntu-armhf-3.8.13-bone30.sh",
-		"/home/aclaro/Desktop/1800/LCD/LCDLib.h",
-		"/home/aclaro/Desktop/1800/LCD/LCDLib.c",
-		"/home/aclaro64/.cache/.fr-x2eR5S/VIU110_PROTOTYPE_EN_V1.0_20140813/Configuration/Citizens/citizens-info.xml",
-		"/home/aclaro64/.cache/.fr-khwkJI/SAES1800PLUS+VIU-v0.11/etc/election/SAES1800+/close-election.xml",
-		"/media/aclaro64/MOC001VIU/SAES/TransmissionPackages/transmission-package.xml",
-		"/home/aclaro64/Downloads/StatusReport_bin file",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/applications/election/share/SAES/election.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/Votes/yBJ3Rk",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/ballot-information.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/election.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/etc/election/SAES1800+/voting-experience.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/mirror/SAES/ballot-information.xml",
-		"/home/aclaro64/Downloads/SAES y example-ballot-V8/SAES/ballot-information.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/workflows-status.xml",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/BallotInformation.cpp",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/Votes/dAp17i",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/machine-state.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/Votes/gxto14",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/BallotInformation.h",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/BallotProcessing.cpp"
+		"/home/aclaro64/Downloads/transmission-package_v7.0.7.xsd"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 156.0
 	},
 	"find_in_files":
 	{
@@ -431,14 +428,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			" ",
-			",",
-			"sort",
-			"sort_recursion",
-			"sort_internal",
-			"sort-internal",
-			"tests",
-			" \"[",
+			"\n# Build path\nIF (\"${CMAKE_BUILD_TYPE}\" STREQUAL \"Release\")\n  SET (BUILD_DIR build/release)\nELSE ()\n  SET (BUILD_DIR build/debug)\nENDIF ()",
+			"INCLUDE",
+			"BALLOT_VIEWER_VERSION",
+			"BALLOT_VIEWER_VERSION_MINOR",
+			"BALLOT_VIEWER_VERSION_MAJOR",
+			"VERSION",
+			"SET",
+			"transmission",
+			"config.h",
+			"config",
+			"CMAKE_USER_OPTIONS",
+			"DCMAKE_BUILD_TYPE",
+			")\n",
+			"TestSuite clone setPath(System launchPath) run\n",
 			"compute_fizzbuzz",
 			"roman_digit",
 			"value",
@@ -504,9 +507,9 @@
 		"regex": false,
 		"replace_history":
 		[
-			"\n",
-			"",
-			"sort_internal",
+			"VERSION",
+			"VERSION_MINOR",
+			"VERSION_MAJOR",
 			"play_fizzbuzz",
 			"digit_symbol",
 			"digit_value",
@@ -543,16 +546,11 @@
 			"sheets":
 			[
 			]
-		},
-		{
-			"sheets":
-			[
-			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 35.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -567,12 +565,6 @@
 				0,
 				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
 			]
 		],
 		"cols":
@@ -583,7 +575,6 @@
 		"rows":
 		[
 			0.0,
-			0.311647598733,
 			1.0
 		]
 	},
@@ -592,15 +583,11 @@
 	{
 		"height": 0.0
 	},
-	"output.git-commit":
-	{
-		"height": 124.0
-	},
 	"pinned_build_system": "",
-	"project": "sml.sublime-project",
+	"project": "sort.sublime-project",
 	"replace":
 	{
-		"height": 106.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -638,7 +625,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": false,
-	"side_bar_width": 234.0,
+	"side_bar_width": 207.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

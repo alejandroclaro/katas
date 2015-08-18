@@ -127,10 +127,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 329.0,
-		"last_filter": "instal",
+		"height": 392.0,
+		"last_filter": "gits",
 		"selected_items":
 		[
+			[
+				"gits",
+				"Git: Status"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -252,7 +256,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 546.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -278,11 +282,12 @@
 	],
 	"file_history":
 	[
+		"/home/aclaro64/SourceCode/github/katas/io/fizzbuzz/FizzBuzzTest.io",
+		"/home/aclaro64/SourceCode/github/katas/io/fizzbuzz/FizzBuzz.io",
+		"/home/aclaro64/SourceCode/github/katas/io/README.md",
 		"/home/aclaro64/SourceCode/saes_6/scripts/create-release-makefiles.sh",
 		"/home/aclaro64/SourceCode/saes_6/scripts/create-debug-makefiles.sh",
 		"/home/aclaro64/SourceCode/github/katas/io/fizzbuzz/runTests.io",
-		"/home/aclaro64/SourceCode/github/katas/io/fizzbuzz/FizzBuzzTest.io",
-		"/home/aclaro64/SourceCode/github/katas/io/fizzbuzz/FizzBuzz.io",
 		"/home/aclaro64/SourceCode/github/katas/io/io.sublime-project",
 		"/home/aclaro64/SourceCode/github/katas/sml/fizzbuzz/test-fizzbuzz.sml",
 		"/home/aclaro64/SourceCode/github/katas/sml/fizzbuzz/fizzbuzz.sml",
@@ -404,8 +409,7 @@
 		"/home/aclaro64/Downloads/SAES y example-ballot-V8/SAES/ballot-information.xml",
 		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/workflows-status.xml",
 		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/BallotInformation.cpp",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/Votes/dAp17i",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/machine-state.xml"
+		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/Votes/dAp17i"
 	],
 	"find":
 	{
@@ -528,11 +532,6 @@
 			"sheets":
 			[
 			]
-		},
-		{
-			"sheets":
-			[
-			]
 		}
 	],
 	"incremental_find":
@@ -552,12 +551,6 @@
 				0,
 				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
 			]
 		],
 		"cols":
@@ -568,7 +561,6 @@
 		"rows":
 		[
 			0.0,
-			0.5,
 			1.0
 		]
 	},
@@ -576,6 +568,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 130.0
 	},
 	"pinned_build_system": "",
 	"project": "io.sublime-project",
@@ -611,7 +607,7 @@
 		],
 		"width": 352.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

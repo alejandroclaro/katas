@@ -62,7 +62,8 @@ try:
 				# Time to update the "values" for another test
 				for actual, expected in zip(blah_list[::2], blah_list[1::2]):
 					last_value_index += 1
-					tests[last_value_index]['values'] = {'expected': expected, 'actual': actual}
+					if len(tests) > last_value_index:
+						tests[last_value_index]['values'] = {'expected': expected, 'actual': actual}
 				it_line_start = -1
 		if line.startswith('%s:' % filename) or line.startswith('uncaught exception'):
 			sml_error = True
@@ -82,7 +83,8 @@ if it_line_start >= 0:
 	# Time to update the "values" for another test
 	for actual, expected in zip(blah_list[::2], blah_list[1::2]):
 		last_value_index += 1
-		tests[last_value_index]['values'] = {'expected': expected, 'actual': actual}
+		if len(tests) > last_value_index:
+		  tests[last_value_index]['values'] = {'expected': expected, 'actual': actual}
 
 num_ok = len([test for test in tests if test['status'] == 'OK'])
 num_fail = len([test for test in tests if test['status'] == 'FAIL'])
@@ -104,7 +106,7 @@ stats_line = "Ran %d test%s in %.3f seconds" % (num_tests, 's' * (num_tests != 1
 
 if num_fail > 0:
 	stats_line += " (%d failure%s)" % (num_fail, 's' * (num_fail != 1))
-	
+
 if sml_error:
 	print
 	print colours['FAIL'] + '****************SML ERROR****************' + colours['END']
