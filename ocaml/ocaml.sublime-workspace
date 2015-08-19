@@ -131,22 +131,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "sort/sort.sml",
-			"settings":
-			{
-				"buffer_size": 816,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sort/test-sort.sml",
-			"settings":
-			{
-				"buffer_size": 1745,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -155,10 +139,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 372.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"git sta",
 				"Git: Status"
@@ -228,10 +216,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"inste",
 				"Package Control: Install Package"
 			],
@@ -276,7 +260,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 524.0
+		"width": 611.0
 	},
 	"console":
 	{
@@ -295,17 +279,19 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/home/aclaro64/SourceCode/github/katas/sml",
-		"/home/aclaro64/SourceCode/github/katas/sml/fizzbuzz",
-		"/home/aclaro64/SourceCode/github/katas/sml/roman-numerals",
-		"/home/aclaro64/SourceCode/github/katas/sml/sort"
-	],
 	"file_history":
 	[
-		"/home/aclaro64/SourceCode/github/katas/sml/sort/sort.sml",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/third-party/aps-drivers/CMakeLists.txt",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/transmission-package-verifier/CMakeLists.txt",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/saes-ibutton/CMakeLists.txt",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/saes-extractor/CMakeLists.txt",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/saes-extractor-gui/CMakeLists.txt",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/file-encryptor/CMakeLists.txt",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/file-encryptor-gui/CMakeLists.txt",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/ballot-viewer/CMakeLists.txt",
+		"/home/aclaro64/SourceCode/saes_framework/lizard.xml",
 		"/home/aclaro64/SourceCode/github/katas/sml/sort/test-sort.sml",
+		"/home/aclaro64/SourceCode/github/katas/sml/sort/sort.sml",
 		"/home/aclaro64/SourceCode/github/katas/sml/smlunit",
 		"/home/aclaro64/SourceCode/github/katas/sml/fizzbuzz/fizzbuzz.sml",
 		"/home/aclaro64/SourceCode/github/katas/sml/fizzbuzz/test-fizzbuzz.sml",
@@ -422,16 +408,7 @@
 		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/Votes/yBJ3Rk",
 		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/ballot-information.xml",
 		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/election.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/etc/election/SAES1800+/voting-experience.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/mirror/SAES/ballot-information.xml",
-		"/home/aclaro64/Downloads/SAES y example-ballot-V8/SAES/ballot-information.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/workflows-status.xml",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/BallotInformation.cpp",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/Votes/dAp17i",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/machine-state.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/Votes/gxto14",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/BallotInformation.h",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/BallotProcessing.cpp"
+		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/etc/election/SAES1800+/voting-experience.xml"
 	],
 	"find":
 	{
@@ -442,6 +419,7 @@
 		"height": 87.0,
 		"where_history":
 		[
+			"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/",
 			"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing",
 			""
 		]
@@ -451,6 +429,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"SET (CPACK_DEBIAN_PACKAGE_ARCHITECTURE ${ARCHITECTURE_ALTERNATIVE_NAME})",
+			"SET (CPACK_PACKAGE_FILE_NAME \"${CMAKE_PROJECT_NAME}-${CPACK_PACKAGE_VERSION}-${ARCHITECTURE_ALTERNATIVE_NAME}\")",
+			"SET (CPACK_PACKAGE_FILE_NAME \"${CMAKE_PROJECT_NAME}-${CPACK_PACKAGE_VERSION}",
+			"SET (CPACK_PACKAGE_FILE_NAME \"${CMAKE_PROJECT_NAME}-${CPACK_PACKAGE_VERSION}-${CPACK_DEBIAN_PACKAGE_ARCHITECTURE}\")",
+			"CPACK_DEBIAN_PACKAGE_ARCHITECTURE",
+			" ",
 			"z",
 			"inner_sort",
 			"recursion",
@@ -527,6 +511,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"SET (CPACK_DEBIAN_PACKAGE_ARCHITECTURE ${ARCHITECTURE})\n",
+			"SET (CPACK_PACKAGE_FILE_NAME \"${CMAKE_PROJECT_NAME}-${CPACK_PACKAGE_VERSION}-${ARCHITECTURE}\")\n",
+			"SET (CPACK_PACKAGE_FILE_NAME \"${CMAKE_PROJECT_NAME}-${CPACK_PACKAGE_VERSION}-${ARCHITECTURE_ALTERNATIVE_NAME}\")\n",
 			"\n",
 			"",
 			"sort_internal",
@@ -563,197 +550,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "sort/sort.sml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 816,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								756,
-								756
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/SML (Standard ML)/sml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 120.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "sort/test-sort.sml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1745,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1714,
-								1714
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/SML (Standard ML)/sml.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 35.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -768,12 +572,6 @@
 				0,
 				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
 			]
 		],
 		"cols":
@@ -784,7 +582,6 @@
 		"rows":
 		[
 			0.0,
-			0.460862258419,
 			1.0
 		]
 	},
@@ -798,7 +595,7 @@
 		"height": 124.0
 	},
 	"pinned_build_system": "",
-	"project": "sml.sublime-project",
+	"project": "ocaml.sublime-project",
 	"replace":
 	{
 		"height": 106.0
@@ -839,7 +636,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 234.0,
+	"side_bar_width": 173.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
