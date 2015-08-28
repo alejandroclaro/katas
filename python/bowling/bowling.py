@@ -1,6 +1,6 @@
-'''
+"""
 Bowling game code kata.
-'''
+"""
 
 def score(game):
   """

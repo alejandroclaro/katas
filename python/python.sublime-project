@@ -2,6 +2,7 @@
 	"build_systems":
 	[
 		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
 			"name": "Anaconda Python Builder",
 			"selector": "source.python",
 			"shell_cmd": "python -u \"$file\""
@@ -10,16 +11,7 @@
 	"folders":
 	[
 		{
-			"follow_symlinks": true,
-			"path": "bowling"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "prime-factors"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "roman-numerals"
+			"path": "."
 		}
 	]
 }

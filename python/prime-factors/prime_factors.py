@@ -1,6 +1,6 @@
-'''
+"""
 Code kata: Compute prime factors if a given natural number.
-'''
+"""
 
 def compute_primes(number):
   """

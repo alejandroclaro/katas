@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"let",
+				"let"
+			],
+			[
 				"f",
 				"fn	SML 'fn' anonymous function"
 			],
@@ -140,9 +144,21 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "",
+		"last_filter": "ind",
 		"selected_items":
 		[
+			[
+				"ind",
+				"Indent XML"
+			],
+			[
+				"inde",
+				"Indent XML"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -156,20 +172,12 @@
 				"Git: Push"
 			],
 			[
-				"git st",
-				"Git: Status"
-			],
-			[
 				"python",
 				"SublimeREPL: Python - RUN current file"
 			],
 			[
 				"sublimepy",
 				"SublimeREPL: Python - Sublime Text Console"
-			],
-			[
-				"inde",
-				"Indent XML"
 			],
 			[
 				"repl",
@@ -260,7 +268,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 611.0
+		"width": 573.0
 	},
 	"console":
 	{
@@ -279,8 +287,34 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/aclaro64/SourceCode/github/katas/ocaml",
+		"/home/aclaro64/SourceCode/github/katas/ocaml/fizzbuzz",
+		"/home/aclaro64/SourceCode/github/katas/ocaml/prime-factors"
+	],
 	"file_history":
 	[
+		"/home/aclaro64/Desktop/commonLetters.cpp",
+		"/home/aclaro64/SourceCode/github/courses/cs015-posa-security/assignment2b/build.gradle",
+		"/home/aclaro64/SourceCode/github/courses/cs015-posa-spring/hw3-server/src/main/java/org/magnum/dataup/VideoSvcController.java",
+		"/home/aclaro64/SourceCode/github/courses/cs015-posa-spring/hw3-server/src/main/java/org/magnum/dataup/model/Video.java",
+		"/home/aclaro64/SourceCode/mobilecloudsecurity-15/assignments/assignment2b/README.md",
+		"/home/aclaro64/SourceCode/saes_framework/CMakeLists.txt",
+		"/tmp/SAES_D/election.xml",
+		"/tmp/SAES_D/Votes/Qzlgn4",
+		"/home/aclaro64/SourceCode/saes_6/plugins/voting-experience/dominican-republic/src/VotingExperience/VotingExperienceController.cpp",
+		"/home/aclaro64/SourceCode/saes_6/plugins/voting-experience/dominican-republic/src/VotingExperience/VotingExperienceController.h",
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/file-encryptor/decrypt-saes.sh",
+		"/home/aclaro64/SourceCode/saes_framework/scripts/create-release-makefiles.sh",
+		"/home/aclaro64/SourceCode/github/katas/ocaml/prime-factors/primeFactorsTest.ml",
+		"/home/aclaro64/SourceCode/github/katas/ocaml/fizzbuzz/fizzbuzz.ml",
+		"/home/aclaro64/SourceCode/github/katas/ocaml/prime-factors/primeFactors.ml",
+		"/home/aclaro64/SourceCode/github/katas/ocaml/prime-factors/run-tests.sh",
+		"/home/aclaro64/SourceCode/github/katas/ocaml/fizzbuzz/fizzbuzzTest.ml",
+		"/home/aclaro64/SourceCode/github/katas/ocaml/README.md",
+		"/home/aclaro64/SourceCode/github/katas/ocaml/fizzbuzz/run-tests.sh",
+		"/home/aclaro64/SourceCode/github/katas/ocaml/ocaml.sublime-project",
 		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/third-party/aps-drivers/CMakeLists.txt",
 		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/transmission-package-verifier/CMakeLists.txt",
 		"/home/aclaro64/SourceCode/esbu_dev_cpp_tools/SAES1800+/saes-ibutton/CMakeLists.txt",
@@ -388,27 +422,7 @@
 		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/libnbis/src/bozorth.h",
 		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/libnbis/NbisFingerprint.cpp",
 		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/libnbis/src/bz_sort.c",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/libnbis/bz_sort.c",
-		"/media/aclaro64/BOOT/uEnv.txt",
-		"/media/aclaro64/BOOT/nfs-uEnv.txt",
-		"/media/aclaro64/c97d776e-6e3e-45d7-96a5-f1cb66ab2dd4/boot/uEnv.txt",
-		"/media/aclaro64/rootfs/boot/uEnv.txt",
-		"/home/aclaro64/Desktop/1800/BBB/BOOT/nfs-uEnv.txt",
-		"/home/aclaro64/Desktop/1800/BBB/BOOT/uEnv.txt",
-		"/home/aclaro64/Desktop/1800/lcd_version4/FW_LCD_V4/keypad.txt",
-		"/home/aclaro64/Downloads/transmission-package_v7.0.7.xsd",
-		"/media/aclaro64/BOOT/scripts/setup-ubuntu-armhf-3.8.13-bone30.sh",
-		"/home/aclaro/Desktop/1800/LCD/LCDLib.h",
-		"/home/aclaro/Desktop/1800/LCD/LCDLib.c",
-		"/home/aclaro64/.cache/.fr-x2eR5S/VIU110_PROTOTYPE_EN_V1.0_20140813/Configuration/Citizens/citizens-info.xml",
-		"/home/aclaro64/.cache/.fr-khwkJI/SAES1800PLUS+VIU-v0.11/etc/election/SAES1800+/close-election.xml",
-		"/media/aclaro64/MOC001VIU/SAES/TransmissionPackages/transmission-package.xml",
-		"/home/aclaro64/Downloads/StatusReport_bin file",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/applications/election/share/SAES/election.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/Votes/yBJ3Rk",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/ballot-information.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/election.xml",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/etc/election/SAES1800+/voting-experience.xml"
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/libnbis/bz_sort.c"
 	],
 	"find":
 	{
@@ -429,6 +443,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"springBootVersion",
+			"VIDEO_DATA_PATH",
+			"DATA_PARAMETER",
+			"VIDEO_DATA_PATH",
+			"ID_PARAMETER",
+			"VIDEO_SVC_PATH",
+			"VIDEO_DATA_PATH",
+			"\\n",
+			"  *- ",
+			"2990010",
+			"1990010",
+			"1007029",
+			"finishVote",
+			"tokens",
+			"castVote",
+			"BALLOT_ID_TOKEN_NUMBER",
+			"castVote",
+			"acc",
 			"SET (CPACK_DEBIAN_PACKAGE_ARCHITECTURE ${ARCHITECTURE_ALTERNATIVE_NAME})",
 			"SET (CPACK_PACKAGE_FILE_NAME \"${CMAKE_PROJECT_NAME}-${CPACK_PACKAGE_VERSION}-${ARCHITECTURE_ALTERNATIVE_NAME}\")",
 			"SET (CPACK_PACKAGE_FILE_NAME \"${CMAKE_PROJECT_NAME}-${CPACK_PACKAGE_VERSION}",
@@ -508,9 +540,10 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			" ",
 			"SET (CPACK_DEBIAN_PACKAGE_ARCHITECTURE ${ARCHITECTURE})\n",
 			"SET (CPACK_PACKAGE_FILE_NAME \"${CMAKE_PROJECT_NAME}-${CPACK_PACKAGE_VERSION}-${ARCHITECTURE}\")\n",
 			"SET (CPACK_PACKAGE_FILE_NAME \"${CMAKE_PROJECT_NAME}-${CPACK_PACKAGE_VERSION}-${ARCHITECTURE_ALTERNATIVE_NAME}\")\n",
@@ -598,7 +631,7 @@
 	"project": "ocaml.sublime-project",
 	"replace":
 	{
-		"height": 106.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
