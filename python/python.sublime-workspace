@@ -338,11 +338,12 @@
 	],
 	"file_history":
 	[
+		"/home/aclaro64/SourceCode/github/katas/python/sort/test_sort.py",
+		"/home/aclaro64/SourceCode/github/katas/python/sort/sort.py",
+		"/home/aclaro64/SourceCode/github/katas/python/sort/tests/test_sort.py",
 		"/home/aclaro64/SourceCode/github/katas/python/python.sublime-project",
 		"/tmp/esbu_dev_saes_6_cpp/plugins/voting-experience/CMakeLists.txt",
-		"/home/aclaro64/SourceCode/github/katas/python/sort/sort.py",
 		"/home/aclaro64/SourceCode/github/katas/sml/sort/sort.sml",
-		"/home/aclaro64/SourceCode/github/katas/python/sort/test_sort.py",
 		"/home/aclaro64/SourceCode/github/katas/python/bowling/bowling.py",
 		"/home/aclaro64/SourceCode/github/katas/python/common-letters/common_letters.py",
 		"/home/aclaro64/SourceCode/github/katas/python/roman-numerals/roman_numerals.py",
@@ -464,8 +465,7 @@
 		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/mirror/SAES/ballot-information.xml",
 		"/home/aclaro64/Downloads/SAES y example-ballot-V8/SAES/ballot-information.xml",
 		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/workflows-status.xml",
-		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/BallotInformation.cpp",
-		"/home/aclaro64/SourceCode/SAES_6_Linux/build/debug/election/SAES/Votes/dAp17i"
+		"/home/aclaro64/SourceCode/esbu_dev_cpp_custom_test/alejandro_claro/election-1800/src/Processing/BallotInformation.cpp"
 	],
 	"find":
 	{
@@ -597,11 +597,6 @@
 			"sheets":
 			[
 			]
-		},
-		{
-			"sheets":
-			[
-			]
 		}
 	],
 	"incremental_find":
@@ -621,12 +616,6 @@
 				0,
 				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
 			]
 		],
 		"cols":
@@ -637,7 +626,6 @@
 		"rows":
 		[
 			0.0,
-			0.5,
 			1.0
 		]
 	},
@@ -692,7 +680,7 @@
 		],
 		"width": 352.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
