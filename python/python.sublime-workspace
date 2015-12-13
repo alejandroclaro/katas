@@ -188,9 +188,17 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "ana",
+		"last_filter": "git ta",
 		"selected_items":
 		[
+			[
+				"git ta",
+				"Git: Tag"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
 			[
 				"ana",
 				"Anaconda: Run Project Tests"
@@ -308,7 +316,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 570.0
+		"width": 535.0
 	},
 	"console":
 	{
